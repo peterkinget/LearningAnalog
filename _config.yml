@@ -1,0 +1,54 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: EE4312 Analog Electronic Circuits Notes
+author: Peter Kinget
+copyright: "2024"
+logo: ic_logo.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: cache
+  timeout: -1   # -1 means no time out; default 30 (seconds)
+  
+#  exclude_patterns:
+#    - '*flicker_effect_waveform_lifetime*'
+
+# only build the files that are in the toc
+only_build_toc_files: true    
+# Exclude the following from the build -- does not work as I expect; maybe you can only exclude folders
+exclude_patterns: ['ignore/*']
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+# bibtex_bibfiles:
+#   - references.bib
+#   - CircuitAnalysisGuides/FlickerNoise/bib/flicker_noise.bib
+# bibtex_reference_style: author_year
+# bibtex_reference_style: super
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+# sphinx:
+#   # Other configurations...
+# 
+#   exclude_patterns: [ ignore/*, debug*]
+# #     - ignore_these_files/
+# #     - ignore/*
+# # 
+# 

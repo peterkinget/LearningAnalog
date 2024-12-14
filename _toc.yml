@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: 3
+chapters:
+- file: TestYourKnowledge/AEC_prereq_test/AEC_entry_test
+- file: TestYourKnowledge/AEC_prereq_solution/AEC_entry_test_solution
+
+# - file: 2_chapter_basic/basic_experiments
+# - file: 3_chapter_ota/ota_experiments
+#   sections:
+#   - file: 3_chapter_ota/mota-se-p-16/mota-se-p-16
+#   - file: 3_chapter_ota/mota-single-ended/mota-single-ended
+#   
+  
