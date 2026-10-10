@@ -1,0 +1,5 @@
+# Jupyter Book 2.x is a different tool; this book uses 1.x
+jupyter-book>=1.0,<2
+ghp-import
+matplotlib
+numpy
