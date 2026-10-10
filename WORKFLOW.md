@@ -11,8 +11,7 @@ Each Mac has its own clone; GitHub is what keeps them in sync.
 
 ```
 cd ~/GitHub/LearningAnalog
-source venv_jupyterbook/bin/activate     # zsh/bash
-# source venv_jupyterbook/bin/activate.csh   # csh/tcsh
+source venv_jupyterbook/bin/activate
 git pull                                 # get changes made on the other Mac
 ```
 
