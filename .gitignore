@@ -1,0 +1,10 @@
+# Jupyter Book build output (the site is published from the gh-pages branch)
+_build/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# macOS
+.DS_Store
